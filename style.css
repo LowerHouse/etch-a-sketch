@@ -1,0 +1,45 @@
+body, div, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.grid-row, .grid-column{
+    background-color: white;
+
+}
+
+.grid-column{
+    display: flex;
+    width: 960px;
+    max-width: 960px;
+    max-height: 960px;
+}
+
+.grid-row{
+    flex: 1;
+}
+
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
